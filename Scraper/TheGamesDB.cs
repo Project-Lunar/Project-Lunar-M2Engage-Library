@@ -65,7 +65,11 @@ namespace ProjectLunarUI
                         platform = "33";
                         break;
                     case GameSystems.SegaCD:
+			platform = "0";
+			break;
                     case GameSystems.Unknown:
+			platform = "0";
+			break;
                     default:
                         break;
                 }
